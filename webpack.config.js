@@ -19,7 +19,7 @@ while (directories.length > 0) {
 
 module.exports = {
   mode: "production",
-  entry: "./src/index.html",
+  entry: "./src/index.js",
   output: {
     path: __dirname + "/dist",
     clean: true,
