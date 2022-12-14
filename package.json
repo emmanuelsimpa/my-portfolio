@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --output public",
     "start": "webpack serve"
   },
   "keywords": [],
