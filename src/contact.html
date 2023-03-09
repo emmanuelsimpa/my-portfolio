@@ -350,20 +350,21 @@
           <!-- Left Side Ends -->
           <!-- Contact Form Starts -->
           <div class="col-12 col-lg-8">
-            <form class="contactform" method="post" action="#">
+            <form class="contactform" method="POST" action="https://formspree.io/f/moqzjqko" id="my-form">
               <div class="contactform">
                 <div class="row">
                   <div class="col-12 col-md-4">
-                    <input type="text" name="name" placeholder="YOUR NAME" />
+                    <input type="text" name="name" placeholder="YOUR NAME" required/>
                   </div>
                   <div class="col-12 col-md-4">
-                    <input type="email" name="email" placeholder="YOUR EMAIL" />
+                    <input type="email" name="email" placeholder="YOUR EMAIL" required/>
                   </div>
                   <div class="col-12 col-md-4">
                     <input
                       type="text"
                       name="subject"
                       placeholder="YOUR SUBJECT"
+                      required
                     />
                   </div>
                   <div class="col-12">
@@ -371,7 +372,7 @@
                       name="message"
                       placeholder="YOUR MESSAGE"
                     ></textarea>
-                    <button type="submit" class="btn btn-contact">
+                    <button id="submit-button" type="submit" class="btn btn-contact">
                       Send Message
                     </button>
                   </div>
